@@ -11,7 +11,7 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js'
+      install: './src/js/install.js',
     },
     output: {
       filename: '[name].bundle.js',
@@ -32,6 +32,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: 'Jate',
+        short_name: 'Jate_txt',
         description: 'Text Editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',

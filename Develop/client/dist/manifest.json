@@ -32,7 +32,7 @@
     }
   ],
   "name": "Jate",
-  "short_name": "Jate",
+  "short_name": "Jate_txt",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
